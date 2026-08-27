@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="I.S ENTERPRISES - BEST QUALITY WITH MILEAGE">
+<title>I.S ENTERPRISES</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f6f9ff;color:#172033}
+.offer{height:42px;background:#f97316;color:#fff;display:flex;align-items:center;overflow:hidden;font-weight:bold}
+.offer div{white-space:nowrap;padding-left:100%;animation:slide 14s linear infinite}
+@keyframes slide{from{transform:translateX(0)}to{transform:translateX(-100%)}}
+header{background:white;box-shadow:0 2px 10px #0001;position:sticky;top:0;z-index:10}
+.nav{max-width:1150px;margin:auto;padding:16px 20px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:25px;font-weight:900;color:#123b73}
+nav a{margin-left:18px;text-decoration:none;color:#123b73;font-weight:bold}
+.hero{padding:70px 20px;background:linear-gradient(135deg,#eaf3ff,#fff)}
+.hero-inner{max-width:1150px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:30px}
+h1{font-size:clamp(40px,7vw,70px);margin:0;color:#123b73}
+.tag{font-size:22px;font-weight:bold;color:#155eef;margin-top:10px}
+.hero-icon{font-size:120px;background:white;padding:35px 55px;border-radius:30px;box-shadow:0 15px 40px #123b7318}
+.btn{display:inline-block;padding:13px 19px;border-radius:10px;text-decoration:none;font-weight:bold;margin-top:22px;margin-right:8px}
+.blue{background:#155eef;color:#fff}.orange{background:#f97316;color:#fff}
+section{max-width:1150px;margin:auto;padding:55px 20px}
+.title{text-align:center;margin-bottom:30px}.title h2{font-size:34px;color:#123b73;margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 8px 25px #123b7312;border:1px solid #e5eaf2}
+.pic{height:190px;background:#eef4fb;display:flex;align-items:center;justify-content:center;font-size:75px}
+.info{padding:18px}.info h3{margin:0;color:#123b73}.info p{color:#667085;font-size:14px}
+.enquiry{display:block;text-align:center;background:#f97316;color:#fff;padding:11px;border-radius:9px;text-decoration:none;font-weight:bold;margin-top:14px}
+.contact{background:#fff;max-width:none}.contact-inner{max-width:1150px;margin:auto;padding:0 20px}
+.boxes{display:grid;grid-template-columns:1fr 1fr;gap:20px}.box{background:#f7f9fc;padding:25px;border-radius:18px}
+.box h3{color:#123b73}.box a{color:#155eef}
+footer{background:#123b73;color:#fff;text-align:center;padding:25px}footer p{margin:8px 0 0}
+@media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr)}.hero-inner{flex-direction:column;text-align:center}.hero-icon{font-size:90px}nav a{display:none}}
+@media(max-width:520px){.grid{grid-template-columns:1fr}.nav{padding:13px 15px}.logo{font-size:20px}section{padding:45px 15px}.hero{padding:50px 15px}}
+</style>
+</head>
+<body>
+
+<div class="offer"><div>₹1000 OFFER DUE TO RAKSHABANDAN</div></div>
+
+<header>
+<div class="nav">
+<div class="logo">I.S ENTERPRISES</div>
+<nav>
+<a href="#home">Home</a>
+<a href="#scooters">Scooters</a>
+<a href="#contact">Contact</a>
+<a href="https://wa.me/916200933163" target="_blank">WhatsApp</a>
+</nav>
+</div>
+</header>
+
+<section class="hero" id="home">
+<div class="hero-inner">
+<div>
+<h1>I.S ENTERPRISES</h1>
+<div class="tag">BEST QUALITY WITH MILEAGE</div>
+<a class="btn blue" href="#scooters">View Scooters</a>
+<a class="btn orange" href="tel:+919162289982">Call Now</a>
+</div>
+<div class="hero-icon">🛵</div>
+</div>
+</section>
+
+<section id="scooters">
+<div class="title"><h2>Scooters</h2></div>
+<div class="grid" id="products"></div>
+</section>
+
+<section class="contact" id="contact">
+<div class="contact-inner">
+<div class="title"><h2>Contact</h2></div>
+<div class="boxes">
+<div class="box">
+<h3>I.S ENTERPRISES</h3>
+<p>📍 BARMASIYA MORE NEAR BOI BANK</p>
+<p>📞 <a href="tel:+919162289982">9162289982</a></p>
+<p>📞 <a href="tel:+916200933163">6200933163</a></p>
+<a class="btn blue" href="tel:+919162289982">Call</a>
+<a class="btn orange" href="https://wa.me/916200933163" target="_blank">WhatsApp</a>
+</div>
+<div class="box">
+<h3>Location</h3>
+<p>BARMASIYA MORE NEAR BOI BANK</p>
+<a class="btn blue" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Barmasiya%20More%20near%20BOI%20Bank">Get Directions</a>
+</div>
+</div>
+</div>
+</section>
+
+<footer>
+<strong>I.S ENTERPRISES</strong>
+<p>BEST QUALITY WITH MILEAGE</p>
+</footer>
+
+<script>
+const products = [
+"Scooter 1","Scooter 2","Scooter 3","Scooter 4","Scooter 5",
+"Scooter 6","Scooter 7","Scooter 8","Scooter 9","Scooter 10",
+"Scooter 11","Scooter 12","Scooter 13","Scooter 14","Scooter 15"
+];
+
+const whatsapp="916200933163";
+
+document.getElementById("products").innerHTML=products.map(name=>`
+<article class="card">
+<div class="pic">🛵</div>
+<div class="info">
+<h3>${name}</h3>
+<p>Mileage: Add exact mileage</p>
+<p>Price & model details available on enquiry</p>
+<a class="enquiry" target="_blank"
+href="https://wa.me/${whatsapp}?text=${encodeURIComponent("Hello, I am interested in "+name+". Please provide details.")}">
+Enquiry on WhatsApp
+</a>
+</div>
+</article>`).join("");
+</script>
+
+</body>
+</html>
